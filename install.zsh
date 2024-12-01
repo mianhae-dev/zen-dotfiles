@@ -40,5 +40,10 @@ else
 fi
 }
 
+function install_dotfiles() {
+  stow alacritty
+}
+
 install_brew
 install_formulae_and_casks
+install_dotfiles
