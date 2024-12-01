@@ -41,7 +41,9 @@ fi
 }
 
 function install_dotfiles() {
-  stow alacritty
+  stow -t ${HOME} \
+	alacritty \
+	oh-my-posh
 }
 
 install_brew
