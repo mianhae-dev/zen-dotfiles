@@ -1,0 +1,1 @@
+alias ls="eza --icons=always --group-directories-first"
