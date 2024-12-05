@@ -43,6 +43,7 @@ fi
 function install_dotfiles() {
   stow -t ${HOME} \
 	alacritty \
+	kitty \
 	oh-my-posh
 }
 
