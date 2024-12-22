@@ -42,11 +42,20 @@ fi
 
 function install_dotfiles() {
   stow -t ${HOME} \
-	alacritty \
+  alacritty \
 	kitty \
+  fish \
 	oh-my-posh
+}
+
+function setup_shell() {
+  sudo sh -c "echo /opt/homebrew/bin/fish >> /etc/shells"
+  fish -c 'fisher update'
+  chsh -s "$(which fish)"
 }
 
 install_brew
 install_formulae_and_casks
 install_dotfiles
+setup_shell
+fish 

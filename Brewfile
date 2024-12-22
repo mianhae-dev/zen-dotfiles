@@ -16,6 +16,7 @@ brew 'zsh-autosuggestions'
 brew 'zsh-syntax-highlighting'
 brew 'yazi'
 brew 'stow'
+brew 'fisher'
 
 # GUI-Applications
 cask "1password"
