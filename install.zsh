@@ -45,7 +45,8 @@ function install_dotfiles() {
   alacritty \
 	kitty \
   fish \
-	oh-my-posh
+	oh-my-posh \
+  yazi 
 }
 
 function setup_shell() {
