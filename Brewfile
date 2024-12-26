@@ -2,6 +2,13 @@
 brew 'bat'
 brew 'eza'
 brew 'fzf'
+brew 'ffmpeg'
+brew 'sevenzip'
+brew 'jq'
+brew 'poppler'
+brew 'fd'
+brew 'ripgrep'
+brew 'imagemagick'
 brew 'git'
 brew 'gum'
 brew 'lazygit'
@@ -17,6 +24,7 @@ brew 'zsh-syntax-highlighting'
 brew 'yazi'
 brew 'stow'
 brew 'fisher'
+
 
 # GUI-Applications
 cask "1password"
