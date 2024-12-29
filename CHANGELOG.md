@@ -2,6 +2,11 @@
 
 ### Feat
 
+- **yazi**: add tokyo-night theme
+- **yazi**: add yazi config files
+- **install**: add yazi to installatio script
+- **yazi**: add fish function to switch directory
+- **yazi**: add yazi dependencies to brew file
 - **fish**: add proper fish initialization on install
 - **oh-my-posh**: add startup with the theme
 - **fish**: introduce fisher plugins
