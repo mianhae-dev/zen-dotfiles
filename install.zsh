@@ -42,8 +42,7 @@ fi
 
 function install_dotfiles() {
   stow -t ${HOME} \
-  alacritty \
-	kitty \
+  ghostty \
   fish \
 	oh-my-posh \
   yazi 
