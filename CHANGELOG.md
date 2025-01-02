@@ -2,6 +2,9 @@
 
 ### Feat
 
+- **install**: add ghostty to bootstrap script
+- **ghostty**: add ghostty dotfiles
+- **ghostty**: add ghostty to `Brewfile`
 - **yazi**: add tokyo-night theme
 - **yazi**: add yazi config files
 - **install**: add yazi to installatio script
