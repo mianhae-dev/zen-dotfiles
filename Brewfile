@@ -28,13 +28,12 @@ brew 'fisher'
 
 # GUI-Applications
 cask "1password"
-cask "alacritty"
 cask "arc"
 cask "desktoppr"
 cask "discord"
 cask "drawio"
+cask "ghostty"
 cask "microsoft-teams"
-cask "kitty"
 cask "obsidian"
 cask "onedrive"
 cask "parallels"
