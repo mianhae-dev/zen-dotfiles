@@ -7,8 +7,8 @@ set -g fish_enable_autosuggest 1
 set -U fish_history_limit 1000
 set -U fish_share_history true
 set -U EDITOR nvim
-set -U EZA_CONFIG_DIR  "$HOME/.config/eza"
 set -U XDG_CONFIG_HOME "$HOME/.config"
+set -U GIT_CONFIG_GLOBAL "$XDG_CONFIG_HOME/git/config"
 set -U FZF_DEFAULT_OPTS "$FZF_DEFAULT_OPTS \
    --highlight-line \
    --info=inline-right \
