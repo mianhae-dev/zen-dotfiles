@@ -1,0 +1,7 @@
+window-decoration = false
+window-height = 55
+window-width = 180
+theme = tokyonight
+
+background-opacity = 0.8
+background-blur-radius = 10

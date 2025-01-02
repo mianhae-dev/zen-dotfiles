@@ -1,0 +1,5 @@
+#keybind = global:cmd+grave_accent=toggle_quick_terminal
+keybind = global:cmd+shift+enter=toggle_quick_terminal
+mouse-hide-while-typing = true
+copy-on-select = true
+confirm-close-surface = true

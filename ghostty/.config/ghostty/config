@@ -1,0 +1,4 @@
+config-file = cursor/config
+config-file = general/config
+config-file = fonts/config
+config-file = window/config
