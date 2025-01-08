@@ -43,6 +43,7 @@ fi
 function install_dotfiles() {
   stow -t ${HOME} \
   ghostty \
+  git \
   fish \
 	oh-my-posh \
   yazi 
