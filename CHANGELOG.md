@@ -2,8 +2,10 @@
 
 ### Feat
 
+- **lazygit**: introduce lazygit dotffiles
 - **git**: add git to installation script
 - **git**: introduce git config
+- **fish**: add git config env path
 - **install**: add ghostty to bootstrap script
 - **ghostty**: add ghostty dotfiles
 - **ghostty**: add ghostty to `Brewfile`
