@@ -44,6 +44,7 @@ function install_dotfiles() {
   stow -t ${HOME} \
   ghostty \
   git \
+  lazygit \
   fish \
 	oh-my-posh \
   yazi 
