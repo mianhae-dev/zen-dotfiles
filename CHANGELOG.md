@@ -2,6 +2,10 @@
 
 ### Feat
 
+- **tmux**: add tmux to install script
+- **tmux**: add alias to fish config
+- **tmux**: add tmux plugins
+- **tmux**: add tmux config
 - **lazygit**: introduce lazygit dotffiles
 - **git**: add git to installation script
 - **git**: introduce git config
