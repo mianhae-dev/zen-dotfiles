@@ -46,7 +46,8 @@ function install_dotfiles() {
   git \
   lazygit \
   fish \
-	oh-my-posh \
+  oh-my-posh \
+  tmux \
   yazi 
 }
 
