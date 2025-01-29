@@ -42,6 +42,7 @@ fi
 
 function install_dotfiles() {
   stow -t ${HOME} \
+  aerospace \
   ghostty \
   git \
   lazygit \
