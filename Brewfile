@@ -40,6 +40,7 @@ cask "onedrive"
 cask "parallels"
 cask "raycast"
 cask "visual-studio-code"
+cask "nikitabobko/tap/aerospace"
 
 # Fonts
 cask "font-caskaydia-cove-nerd-font"
