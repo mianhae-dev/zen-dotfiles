@@ -1,46 +1,50 @@
 # Homebrew Packages
-brew 'bat'
-brew 'eza'
-brew 'fzf'
+
+# dependenciee
+brew 'fd'
 brew 'ffmpeg'
-brew 'sevenzip'
+brew 'fzf'
+brew 'imagemagick'
 brew 'jq'
 brew 'poppler'
-brew 'fd'
 brew 'ripgrep'
-brew 'imagemagick'
-brew 'git'
-brew 'git-delta'
-brew 'gum'
-brew 'lazygit'
-brew 'pipx'
-brew 'podman'
-brew 'powerlevel10k'
+brew 'sevenzip'
+brew 'zoxide'
+
+# cli-essentials
+brew 'bat'
+brew 'eza'
+brew 'fisher'
+brew 'nvim'
+brew 'stow'
 brew 'thefuck'
 brew 'tldr'
 brew 'tmux'
-brew 'zoxide'
-brew 'zsh-autosuggestions'
-brew 'zsh-syntax-highlighting'
 brew 'yazi'
-brew 'stow'
-brew 'fisher'
 
+# dev-essentials
+brew 'git'
+brew 'git-delta'
+brew 'lazygit'
+brew 'pipx'
+brew 'podman'
 
 # GUI-Applications
-cask "1password"
-cask "arc"
-cask "desktoppr"
 cask "discord"
 cask "drawio"
 cask "ghostty"
 cask "microsoft-teams"
-cask "obsidian"
-cask "onedrive"
-cask "parallels"
-cask "raycast"
-cask "visual-studio-code"
 cask "nikitabobko/tap/aerospace"
+cask "obsidian"
+cask "parallels"
+cask "proton-drive"
+cask "proton-mail"
+cask "proton-pass"
+cask "proton-vpn"
+cask "sony-ps-remote-play"
+cask "telegram"
+cask "visual-studio-code"
+cask "zen-browser"
 
 # Fonts
 cask "font-caskaydia-cove-nerd-font"
