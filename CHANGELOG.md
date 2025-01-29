@@ -2,6 +2,9 @@
 
 ### Feat
 
+- **aerospace**: add aerospace to the boostrap script
+- **aerospace**: introduce aerospace dotfiles
+- **aerospace**: add aerospace to the brew file
 - **tmux**: add tmux to install script
 - **tmux**: add alias to fish config
 - **tmux**: add tmux plugins
