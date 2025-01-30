@@ -27,9 +27,9 @@ brew 'git'
 brew 'git-delta'
 brew 'lazygit'
 brew 'pipx'
-brew 'podman'
 
 # GUI-Applications
+cask "chatgpt"
 cask "discord"
 cask "drawio"
 cask "ghostty"
@@ -37,6 +37,7 @@ cask "microsoft-teams"
 cask "nikitabobko/tap/aerospace"
 cask "obsidian"
 cask "parallels"
+cask "philips-hue-sync"
 cask "proton-drive"
 cask "proton-mail"
 cask "proton-pass"
@@ -48,4 +49,4 @@ cask "zen-browser"
 
 # Fonts
 cask "font-caskaydia-cove-nerd-font"
-cask "font-meslo-lg-nerd-font"
+cask "font-meslo-lg-nerd-font" 
