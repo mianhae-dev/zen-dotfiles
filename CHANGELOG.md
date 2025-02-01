@@ -1,7 +1,5 @@
 ## v1.0.0 (2025-02-01)
 
-## v1.0.0 (2025-02-01)
-
 ### Feat
 
 - **aerospace**: add aerospace to the boostrap script
