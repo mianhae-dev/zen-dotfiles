@@ -1,4 +1,4 @@
-## Unreleased
+## v0.0.0 (2025-02-01)
 
 ### Feat
 
@@ -31,6 +31,12 @@
 - **alacritty**: introduce alacritty dotfiles
 - **brew**: introduce `brewfile`
 
+### Fix
+
+- **brewfile**: applying fixes before release
+- **brewfile**: applying fixes before release
+
 ### Refactor
 
+- **brew**: adopt brew file
 - **brew**: remove unnecessary packages
