@@ -57,7 +57,7 @@ function setup_shell() {
   fish -c 'fisher update'
   chsh -s "$(which fish)"
 }
-
+sudo softwareupdate --install-rosetta --agree-to-license
 install_brew
 install_formulae_and_casks
 install_dotfiles

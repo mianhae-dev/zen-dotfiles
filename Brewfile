@@ -14,8 +14,10 @@ brew 'zoxide'
 # cli-essentials
 brew 'bat'
 brew 'eza'
+brew 'fish'
 brew 'fisher'
 brew 'nvim'
+brew 'oh-my-posh'
 brew 'stow'
 brew 'thefuck'
 brew 'tldr'
@@ -23,6 +25,7 @@ brew 'tmux'
 brew 'yazi'
 
 # dev-essentials
+brew 'commitizen'
 brew 'git'
 brew 'git-delta'
 brew 'lazygit'
@@ -37,16 +40,16 @@ cask "microsoft-teams"
 cask "nikitabobko/tap/aerospace"
 cask "obsidian"
 cask "parallels"
+cask "sony-ps-remote-play"
 cask "philips-hue-sync"
 cask "proton-drive"
 cask "proton-mail"
 cask "proton-pass"
-cask "proton-vpn"
-cask "sony-ps-remote-play"
+cask "protonvpn"
 cask "telegram"
 cask "visual-studio-code"
 cask "zen-browser"
 
 # Fonts
 cask "font-caskaydia-cove-nerd-font"
-cask "font-meslo-lg-nerd-font" 
+cask "font-meslo-lg-nerd-font"
