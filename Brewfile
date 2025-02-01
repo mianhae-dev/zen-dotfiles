@@ -1,6 +1,7 @@
 # Homebrew Packages
 
 # dependenciee
+brew 'felixkratz/formulae/borders'
 brew 'fd'
 brew 'ffmpeg'
 brew 'fzf'
