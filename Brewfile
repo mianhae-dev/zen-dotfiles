@@ -54,3 +54,4 @@ cask "zen-browser"
 # Fonts
 cask "font-caskaydia-cove-nerd-font"
 cask "font-meslo-lg-nerd-font"
+cask "font-meslo-lg-nerd-font" 
