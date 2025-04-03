@@ -1,0 +1,25 @@
+---
+- name: My dotfiles
+  hosts: localhost
+
+  vars_files: vars/config.yml
+  vars:
+    home_dir: "{{ ansible_env.HOME }}"
+
+  tasks:
+    - name: Checking if stow installed
+      ansible.builtin.command: which stow
+      register: is_stow_installed
+      ignore_errors: yes
+
+    - name: Stow dotfiles
+      ansible.builtin.shell:
+        cmd: "stow -t  {{ home_dir }} -d {{ playbook_dir }}/dotfiles {{ item }}"
+      loop: "{{ stow.targets }}"
+
+    - name: Find all subdirectories in the playbook directory
+      find:
+        paths: "{{ playbook_dir }}/dotfiles"
+        file_type: directory
+        recurse: no
+      register: directories

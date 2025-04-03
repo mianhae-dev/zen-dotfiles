@@ -1,0 +1,56 @@
+packages:
+  dependencies:
+    - fd
+    - ffmpeg
+    - fzf
+    - imagemagick
+    - jq
+    - poppler
+    - ripgrep
+    - sevenzip
+    - zoxide
+
+  core:
+    - bat
+    - eza
+    - fish
+    - fisher
+    - nvim
+    - oh-my-posh
+    - stow
+    - thefuck
+    - tldr
+    - tmux
+    - yazi
+    - atuin
+
+  development:
+    - commitizen
+    - git-delta
+    - lazygit
+
+  gui:
+    - "chatgpt"
+    - "discord"
+    - "drawio"
+    - "ghostty"
+    - "microsoft-teams"
+    - "microsoft-outlook"
+    - "microsoft-powerpoint"
+    - "nikitabobko/tap/aerospace"
+    - "obsidian"
+    - "parallels"
+    - "sony-ps-remote-play"
+    - "philips-hue-sync"
+    - "proton-drive"
+    - "proton-mail"
+    - "proton-pass"
+    - "protonvpn"
+    - "telegram"
+    - "visual-studio-code"
+    - "zen-browser"
+
+  fonts:
+    - "font-caskaydia-cove-nerd-font"
+    - "font-meslo-lg-nerd-font"
+    - "font-meslo-lg-nerd-font"

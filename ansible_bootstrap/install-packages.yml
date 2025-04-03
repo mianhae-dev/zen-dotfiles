@@ -1,0 +1,45 @@
+---
+- name: Install packages
+  hosts: localhost
+
+  vars_files: vars/packages.yml
+
+  tasks:
+    - name: Checking if Homebrew installed
+      ansible.builtin.command: which brew
+      register: is_brew_installed
+      ignore_errors: yes
+
+    - name: Installing Homebrew
+      ansible.builtin.command: curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh
+      when: is_brew_installed.rc != 0
+    
+    - name: Install dependencies
+      package:
+        name: "{{ item }}"
+        state: present
+      loop: "{{ packages.dependencies }}"
+    
+    - name: Install core tools
+      package:
+        name: "{{ item }}"
+        state: present
+      loop: "{{ packages.core }}"
+
+    - name: Install developer tools
+      package:
+        name: "{{ item }}"
+        state: present
+      loop: "{{ packages.development }}"
+
+    - name: Install gui apps
+      community.general.homebrew_cask:
+        name: "{{ item }}"
+        state: present
+      loop: "{{ packages.gui }}"
+
+    - name: Install fonts
+      community.general.homebrew_cask:
+        name: "{{ item }}"
+        state: present
+      loop: "{{ packages.fonts }}"

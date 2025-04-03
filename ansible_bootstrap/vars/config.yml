@@ -1,0 +1,9 @@
+stow:
+  targets:
+    - aerospace
+    - ghostty
+    - git
+    - lazygit
+    - oh-my-posh
+    - tmux
+    - yazi
